@@ -310,7 +310,7 @@ in {
             };
 
             type = mkOption {
-              type = types.enum [ "sendreceive" "sendonly" "receiveonly" ];
+              type = types.enum [ "sendreceive" "sendonly" "receiveonly" "receiveencrypted" ];
               default = "sendreceive";
               description = ''
                 Whether to only send changes for this folder, only receive them
